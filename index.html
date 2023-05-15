@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <title>Hangszerek</title>
+    <style>
+        p{
+            font-weight: bold;
+        }
+        img {
+            border-radius: 10px;
+        }
+        body {
+            background-color: #808000;
+        }
+
+        .rendez {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+            .rendez .hangszer {
+                text-align: center;
+            }
+
+                .rendez .hangszer p {
+                    width: 100%;
+                    text-align: center;
+                    font-weight: bold;
+                    background-color: #00FFFF;
+                    margin: 0;
+                }
+    </style>
+</head>
+
+<body>
+    <h1>Hangszerek</h1>
+    <hr>
+
+    <div class="rendez">
+        <div class="hangszer">
+            <p>fuvola</p>
+            <a href="./fuvola.html" >
+            <img src="./css/images/fuvola.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+
+        <div class="hangszer">
+            <p>dob</p>
+            <a href="./dob.html" >
+            <img src="./css/images/dob.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+
+        <div class="hangszer">
+            <p>gitar</p>
+            <a href="./gitar.html" >
+            <img src="./css/images/gitar.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+    </div>
+
+    <div class="rendez">
+        <div class="hangszer">
+            <p>hegedu</p>
+            <a href="./gitar.html">
+            <img src="./css/images/hegedu.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+
+        <div class="hangszer">
+            <p>zongora</p>
+            <a href="./zongora.html" >
+            <img src="./css/images/zongora.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+
+        <div class="hangszer">
+            <p>xilofon</p>
+            <a href="./xilofon.html" >
+            <img src="./css/images/xilofon.jpg" height="300"  title="Valassz egy hangszert">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
