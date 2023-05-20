@@ -1,55 +1,61 @@
+/*
+szinek
+#1b2390 -- sotetkek
+#e9edf0 -- szurke
+*/
+
 h1 {
-    text-align: center;
-    color: white;
-        }
-        
+  text-align: center;
+  color: white;
+}
+
 .hangszer {
-    overflow: hidden;
-    margin: 0 auto;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .hangszer img {
-    padding: 50px;
+  padding: 50px;
 
-    transition: 0.5s all ease-in-out;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-        }
-
-.hangszer:hover img {
-    transform: scale(1.5);
+  transition: 0.5s all ease-in-out;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-p{
-    font-weight: bold;
+.hangszer:hover img {
+  transform: scale(1.5);
+}
+
+p {
+  font-weight: bold;
 }
 
 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 body {
-    background-color: #808000;
+  background-color: #808000;
 }
 
 .rendez {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .rendez .hangszer {
-    text-align: center;
+  text-align: center;
 }
 
 .rendez .hangszer p {
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    background-color: #00FFFF;
-    margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  background-color: #00ffff;
+  margin: 0;
 }
