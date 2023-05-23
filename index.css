@@ -6,85 +6,73 @@ szinek
 
 .navbar {
   background-color: white;
-  height: 150px;
   width: 100%;
   top: 0;
   left: 0;
   position: fixed;
-  box-sizing: border-box;
   z-index: 100;
+
   display: flex;
   flex-direction: column;
+  gap: 5px;
+}
+
+.navigation{
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 0 10%;
+  padding-top: 10px;
+}
+
+.navigation .left-icons,
+.navigation .right-icons {
+  width: 100%;
+  display: flex;
   align-items: center;
 }
-
-.column1{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
+.navigation .left-icons {
+  gap: 10px;
+}
+.navigation .right-icons {
+  justify-content: flex-end;
+  gap: 10px;
 }
 
-.column1 .title{
-  margin-right: -135px;
+.navigation .title{
+  width: 100%;
   text-align: center;
   font-size: 50px;
-  line-height: 50px;
-  font-family: Roboto, sans-serif;
+  font-family: RobotoBlack, sans-serif;
+  letter-spacing: 0.1em;
   color: #1b2390;
-  display: flex; 
-  align-items: center; 
-  margin-top: 20px;
 }
-
-.column1 .title:hover {
+.navigation .title:hover {
   color:#C4D0FB;
   cursor: pointer;
 }
 
-.column1 .left-icons,
-.column1 .right-icons {
-  display: flex;
-  align-items: center;
-}
-
-.column1 .left-icons img {
-  margin-right: 10px;
+.navigation .left-icons img {
   background-color: #DDDCDC;
-  margin-top: 1px;
   padding: 9px; 
-  width: 3%;   
+  width: 18px;   
   border-radius: 100%;
 }
-
-.column1 .left-icons{
-  margin-left: 150px;
-}
-
-.column1 .left-icons img:hover {
+.navigation .left-icons img:hover {
   color: white;
   background:#1b2390;
   cursor: pointer;
 }
 
-.column1 .right-icons {
-  justify-content: flex-end;
-  margin-right: 150px;
-}
-
-.column1 .right-icons img {
+.navigation .right-icons img {
   background-color: white;
-  float: right; 
-  margin-top: 1px;
-  margin-left: 10px;
-  margin-right: 1px; 
   padding: 9px;
-  width: 3%;
+  width: 22px;
 }
-
-.column1 .right-icons img:hover {
+.navigation .right-icons img:hover {
   color: gray;
   cursor: pointer;
 }
@@ -92,12 +80,12 @@ szinek
 .categories {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  gap: 20px;
   }
   
  .category {
-  margin: 0 10px;
   font-family: Roboto, sans-serif;
   font-size: 20px;
   color: #1b2390;
@@ -105,7 +93,7 @@ szinek
   }
   
   .category.active {
-  font-weight: bold;
+  font-family: RobotoBold, sans-serif;
   }
   
   .category:hover {
