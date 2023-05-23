@@ -4,6 +4,115 @@ szinek
 #e9edf0 -- szurke
 */
 
+.navbar {
+  background-color: white;
+  height: 150px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column1{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.column1 .title{
+  margin-right: -135px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: Roboto, sans-serif;
+  color: #1b2390;
+  display: flex; 
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.column1 .title:hover {
+  color:#C4D0FB;
+  cursor: pointer;
+}
+
+.column1 .left-icons,
+.column1 .right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.column1 .left-icons img {
+  margin-right: 10px;
+  background-color: #DDDCDC;
+  margin-top: 1px;
+  padding: 9px; 
+  width: 3%;   
+  border-radius: 100%;
+}
+
+.column1 .left-icons{
+  margin-left: 150px;
+}
+
+.column1 .left-icons img:hover {
+  color: white;
+  background:#1b2390;
+  cursor: pointer;
+}
+
+.column1 .right-icons {
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+
+.column1 .right-icons img {
+  background-color: white;
+  float: right; 
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-right: 1px; 
+  padding: 9px;
+  width: 3%;
+}
+
+.column1 .right-icons img:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  }
+  
+ .category {
+  margin: 0 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #1b2390;
+  cursor: pointer;
+  }
+  
+  .category.active {
+  font-weight: bold;
+  }
+  
+  .category:hover {
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+  }
+
 h1 {
   text-align: center;
   color: white;
