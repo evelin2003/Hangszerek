@@ -17,7 +17,7 @@ szinek
   gap: 5px;
 }
 
-.navigation{
+.navigation {
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ szinek
   gap: 10px;
 }
 
-.navigation .title{
+.navigation .title {
   width: 100%;
   text-align: center;
   font-size: 50px;
@@ -51,19 +51,19 @@ szinek
   color: #1b2390;
 }
 .navigation .title:hover {
-  color:#C4D0FB;
+  color: #c4d0fb;
   cursor: pointer;
 }
 
 .navigation .left-icons img {
-  background-color: #DDDCDC;
-  padding: 9px; 
-  width: 18px;   
+  background-color: #dddcdc;
+  padding: 9px;
+  width: 18px;
   border-radius: 100%;
 }
 .navigation .left-icons img:hover {
   color: white;
-  background:#1b2390;
+  background: #1b2390;
   cursor: pointer;
 }
 
@@ -83,23 +83,23 @@ szinek
   padding-top: 10px;
   padding-bottom: 30px;
   gap: 20px;
-  }
-  
- .category {
+}
+
+.category {
   font-family: Roboto, sans-serif;
   font-size: 20px;
   color: #1b2390;
   cursor: pointer;
-  }
-  
-  .category.active {
+}
+
+.category.active {
   font-family: RobotoBold, sans-serif;
-  }
-  
-  .category:hover {
+}
+
+.category:hover {
   text-decoration: underline;
   text-decoration-color: lightgray;
-  }
+}
 
 h1 {
   text-align: center;
@@ -155,4 +155,8 @@ body {
   font-weight: bold;
   background-color: #00ffff;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
